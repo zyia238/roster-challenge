@@ -2,10 +2,10 @@
     display: flex;
     background: rgb(243, 243, 243);
     height: 100vh;
-    padding-left: 2.67%;
+    padding-left: 2.67vw;
 }
 
 .mainContainer{
-    width: 100%;
-    margin: 0 1.56%;
+    width: 95vw;
+    margin: 0 auto;    
 }

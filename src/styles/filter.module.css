@@ -6,6 +6,7 @@
     height: 55px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .left{
@@ -15,7 +16,6 @@
 .right{
     display: flex;
     align-items: center;
-    margin-left: 200px;
 }
 
 .exports{
@@ -24,7 +24,7 @@
 
 .underscore{
     margin-right: 25px;
-    width: 180px;
+    width: 7vw;
     position: relative;
     transform: translateY(15%);
 }
@@ -44,7 +44,7 @@
 }
 
 .publish{
-    width: 200px;
+    width: 10vw;
     background-color: rgb(252, 177, 1);
     color: white;
     border-radius: 7px;
