@@ -1,0 +1,43 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.rightSide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datePicker{
+    display: flex;
+    align-items: center;
+    margin-right: 97px;
+
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    color: rgb(252, 177, 1);
+}
+
+.button{
+    width: 190px;
+    height: 43px;
+    line-height: 43px;
+    border-radius: 7px;
+    background: white;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(252, 177, 1);
+}

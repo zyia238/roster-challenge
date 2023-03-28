@@ -1,0 +1,87 @@
+.calendarContainer {
+  margin-top: 20px;
+}
+
+.topRow {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2.34vh;
+}
+
+.weekdays {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.dayBlock {
+  text-align: center;
+  background-color: white;
+  width: 4.77vw;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dayBlockContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 1.1px;
+}
+
+.footers {
+  position: fixed;
+  bottom: 5px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1px;
+}
+
+.namePart {
+  width: 12.08vw;
+  min-width: 12.08vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin-right: 2.178vw;
+}
+
+.shiftPart {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.block {
+  text-align: center;
+  background-color: white;
+  width: 11.22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item {
+  text-align: center;
+  background-color: white;
+  width: 11.38vw;
+  padding: 25px;
+}
+
+.rowWrapper{
+  height: 63vh;
+  overflow-y: scroll;
+}

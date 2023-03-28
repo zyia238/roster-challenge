@@ -1,0 +1,27 @@
+.navContainer{
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background: white;
+    width: 2.67%;
+    max-width: 2.67%;
+    min-width: 2.67%;
+    color: rgb(255, 179, 0);
+    text-align: center;
+
+}
+
+.upperWrapper{
+    margin-top: 141px;
+}
+
+.upperWrapper>svg{
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.bottomWrapper{
+    position: absolute;
+    bottom: 24px;
+    left: 11%;
+}

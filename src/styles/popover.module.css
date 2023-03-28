@@ -1,0 +1,39 @@
+.selector {
+  padding: 2.18978vh 1.52vw;
+}
+
+.selector > div {
+  margin-bottom: 12px;
+}
+
+.button {
+  width: 12.2482vw;
+  height: 4.23357vh;
+  border: 1px solid rgb(55, 62, 66);
+  border-radius: 5px;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  right: 14px;
+  width: 0px;
+  height: 0px;
+  border-top: 3.5px solid rgb(33, 49, 60);
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+}
+
+.shiftIsClicked{
+    height: 15vh;
+   transition: all .4s;
+}
+
+.searchPart{
+    
+}
